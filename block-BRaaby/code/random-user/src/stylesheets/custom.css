@@ -1,0 +1,14 @@
+/* custom styles */
+
+.display{
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+@keyframes example {
+    from{
+        opacity: 0%;
+    }to{
+        opacity: 100%;
+    }
+}
